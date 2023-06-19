@@ -7,18 +7,11 @@ public class FragmentsController  {
 
     @GetMapping("/header")
     public String getHeader() {
-        return "fragments/header";
+        return "header";
     }
 
     @GetMapping("/footer")
     public String getFooter() {
-        return "fragments/footer";
+        return "footer";
     }
-
-
-    @GetMapping("/doctor")
-    public String getDoctor() {
-        return "doctor";
-    }
-
 }

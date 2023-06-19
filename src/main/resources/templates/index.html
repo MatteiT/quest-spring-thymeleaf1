@@ -1,6 +1,5 @@
 
-<div th:replace="fragments/header :: header"></div>
-
+<div th:insert="header"></div>
 <form method="post" th:action="@{/doctor}">
     <fieldset>
         <label for="name">Your doctor's name: </label>
@@ -13,5 +12,5 @@
     </fieldset>
 </form>
 
-<div th:replace="fragments/footer :: footer"></div>
+<div th:insert="footer"></div>
 

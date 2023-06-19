@@ -1,5 +1,5 @@
 
-<div th:replace="fragments/header :: header"></div>
+<div th:insert="header"></div>
 <section>
     <h1>Welcome <span th:text="${doctor.name}"></span></h1>
     <h3>Your number is <span th:text="${doctor.number}"></span></h3>
@@ -9,4 +9,4 @@
     <p>Name: <span th:text="${doctor.name}"></span></p>
     <p>Number: <span th:text="${doctor.number}"></span></p>
 </div>
-<div th:replace="fragments/footer :: footer"></div>
+<div th:insert="footer"></div>
